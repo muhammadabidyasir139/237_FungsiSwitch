@@ -28,7 +28,8 @@ float pembagian(int a, int b) {
 int main() {
     int pilihan;
 
-    do{
+    do
+    {
         cout << "kalkulator Sederhana" << endl;
         cout << "====================" << endl;
         cout << "1. Penjumlahan" << endl;
@@ -65,9 +66,8 @@ int main() {
             cout << "Pilihan Tidak Ada" << endl;
             break;
         }
+         system("pause");
+        system("CLS");
     } while (pilihan != 5);
-
-    system("pause");
-    system("CLS");
 
 }
