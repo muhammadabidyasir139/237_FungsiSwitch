@@ -25,7 +25,8 @@ float pembagian(int a, int b) {
 
 
 
-int main() {
+int main() 
+{
     int pilihan;
 
     do
