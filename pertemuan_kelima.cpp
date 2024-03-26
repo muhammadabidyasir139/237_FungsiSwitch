@@ -36,6 +36,35 @@ int main() {
         cout << "3. Perkalian" << endl;
         cout << "4. Pembagian" << endl;
         cout << "5. keluar" << endl;
+        cout << "====================" << endl;
+        cout << "Masukan Pilihan" << endl;
+        cin >> pilihan;
+
+        switch (pilihan)
+        {
+        case 1:
+            inputData();
+            cout << "hasil penjumlahan = " << penjumlahan (bilangan1, bilangan2) << endl;
+            break;
+        case 2:
+            inputData();
+            cout << "hasil pengurangan = " << pengurangan (bilangan1, bilangan2) << endl;
+            break;
+        case 3:
+            inputData();
+            cout << "hasil perkalian = " << perkalian (bilangan1, bilangan2) << endl;
+            break;
+        case 4:
+            inputData();
+            cout << "hasil pembagian = " << pembagian (bilangan1, bilangan2) << endl;
+            break;
+        case 5:
+            break;
+        
+        default:
+            cout << "Pilihan Tidak Ada" << endl;
+            break;
+        }
     } while (pilihan != 5);
 
 }
